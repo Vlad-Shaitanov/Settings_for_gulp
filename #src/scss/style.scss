@@ -33,8 +33,25 @@ span {
 }
 div {
 	font-size: 30px;
-	background: url("../img/canada.jpg") 0 0 no-repeat;
+	// background: url("../img/canada.jpg") 0 0 no-repeat;
 	@media (max-width: 767px) {
 		font-size: 20px;
 	}
+}
+.title {
+	font-size: 45px;
+	text-align: center;
+	margin: 20px 0;
+}
+.main {
+	> p {
+		text-align: center;
+		margin: 20px 0;
+	}
+	> img {
+		background-size: cover;
+	}
+}
+.text {
+	margin: 0 50px;
 }
